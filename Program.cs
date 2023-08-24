@@ -20,6 +20,35 @@ namespace Program
                 Console.WriteLine($"el valor de a es: {a}");
             }
 
+
+
+            //Console.WriteLine("Hola");
+            if (a > 0)
+            {
+                Console.WriteLine("El valor positivo...");
+                if (a > 1000)
+                {
+                    Console.WriteLine(".... y muy grande");
+                }
+                else
+                {
+                    Console.WriteLine("...chico");
+                }
+            }
+            else
+            {
+                Console.WriteLine("El valor es negativo...");
+                if (a < -1000)
+                {
+                    Console.WriteLine(".... y muy grande ");
+                }
+                else
+                {
+                    Console.WriteLine("...chico!!");
+                }
+            }
+
         }
+
     }
 }
