@@ -93,7 +93,7 @@ namespace Program
 
             //Muestra algunas de las propiedades disponibles en el tipo DateTime
             Console.WriteLine("DateTime.Date = {0}", varDateTime.Date);
-
+            //Faltas
         }
 
     }
